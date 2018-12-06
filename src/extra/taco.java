@@ -1,16 +1,9 @@
+package extra;
 
 public class taco {
 	String meat="carnitas";	
 	String sauce="Mild taco sauce";
-	public static void main(String[] args) {
-	taco t=new taco();
-		t.getMeat();
-t.getSauce();
-	t.setMeat("carne asada");
-	t.setSauce("exytremely spice");
-	t.getMeat();
-	t.getSauce();
-	} 
+
 
 	public String getMeat() {
 		return meat;
