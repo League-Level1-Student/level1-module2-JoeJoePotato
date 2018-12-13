@@ -6,8 +6,8 @@ public class tacoRunner {
 		t.getMeat();
 t.getSauce();
 	t.setMeat("carne asada");
-	t.setSauce("exytremely spice");
-	t.getMeat();
-	t.getSauce();
+	t.setSauce("extremely spice");
+	System.out.println(t.getMeat());
+	System.out.println(t.getSauce()); 
 	} 
 }
